@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  /* height: 100vh; */
+}
+
+.toolbox-cont {
+  height: 10vh;
+  background-color: rgb(103, 103, 103);
+  padding: 1rem;
+  display: flex;
+}
+
+.toolbox-filter-colors {
+  height: 3rem;
+  width: 20rem;
+  background-color: rgb(57, 57, 57);
+  margin-left: 1.5rem;
+  padding: 0.4rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.toolbox-filter-color {
+  width: 20%;
+  margin: 0.2rem;
+  background-color: pink;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.toolbox-cont-select {
+  height: 3rem;
+  width: 8rem;
+  background-color: rgb(57, 57, 57);
+  margin-left: 2rem;
+  border-radius: 7px;
+  display: flex;
+}
+
+.toolbox-cont-select>* {
+  width: 400%;
+  padding: 10%;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+.toolbox-cont-select>*:hover {
+  background-color: rgb(6, 255, 89);
+}
+
+/* 
+.add-btn:hover {
+  background-color: rgb(6, 255, 89);
+}
+
+.trash-btn:hover {
+  background-color: rgb(6, 255, 89);
+} */
+
+
+
+/* Modal Window Design  */
+.modal-cont {
+  background-color: rgb(69, 69, 69);
+  height: 50vh;
+  width: 50vw;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  display: none;
+}
+
+.text-area {
+  background-color: #dfe4ea;
+  height: 100%;
+  width: 80%;
+  resize: none;
+  font-size: 1.6rem;
+  word-wrap: break-word;
+  padding: 1rem;
+  color: #3c4249;
+}
+
+.priority-color-cont {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.priority-color {
+  height: 3.3rem;
+  width: 57%;
+}
+
+.chosen-color-border {
+  height: 3.3rem;
+  width: 57%;
+  border: .20rem solid #FA0533;
+}
+
+.priority-color:hover {
+  cursor: pointer;
+}
+
+/* Main container  */
+
+.main-cont {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+  /* background-color: transparent; */
+}
+
+/* Ticket Structure */
+
+.ticket-cont {
+  background-color: #fe5f55;
+  width: 20%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+
+}
+.ticket-cont:hover{
+  cursor: pointer;
+}
+
+.ticket-header {
+  width: 100%;
+  height: 13%;
+  background-color: #c7efcf;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.ticket-title {
+  width: 100%;
+  height: 18%;
+  background-color: #ffeaa5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-description {
+  width: 100%;
+  height: 69%;
+  padding: 0.2rem;
+}
+
+
+.ticket-lock {
+  background-color: #fe5f55;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-right: 0.3rem;
+}
+
+.ticket-lock>* {
+  cursor: pointer;
+}
+
+.filter-color-1 {
+  background-color: #4285F4;
+}
+
+.filter-color-2 {
+  background-color: #DB4437;
+}
+
+.filter-color-3 {
+  background-color: #F4B400;
+}
+
+.filter-color-4 {
+  background-color: #0F9D58;
+}
+
+.filter-color-1:hover {
+  background-color: #0061fc;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: white;
+  border: none;
+}
+
+.filter-color-2:hover {
+  background-color: #fa1500;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: white;
+  border: none;
+}
+
+.filter-color-3:hover {
+  background-color: #ffca39;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: white;
+  border: none;
+}
+
+.filter-color-4:hover {
+  background-color: #00ff84;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: white;
+  border: none;
+}
